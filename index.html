@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="styles.css">
+<style>
+  #nav{
+    position: absolute;
+    top: 10px;
+  }
+
+  #form{
+    display: flex;
+    flex: 1;
+  }
+
+  @media(width < 480px){
+    #header{
+      border: 1px solid red;
+    }
+  }
+</style>
+
+<header id="header">
+  <img src="" id="header-img">
+  <nav id="nav-bar">
+    <a href="#header" class="nav-link">e1</a>
+    <a href="#video" class="nav-link">e2</a>
+    <a href="#email" class="nav-link">e3</a>
+  </nav>
+</header>
+
+
+
+<video id="video" src=""></video>
+
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input 
+    id="email" 
+    type="email"
+    name="email"
+    placeholder="type your email here">
+
+  <input type="submit" id="submit">
+
+</form>
